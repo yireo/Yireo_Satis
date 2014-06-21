@@ -1,6 +1,6 @@
 # Yireo Satis Repository for Magento Module Composer packages #
 
-The URL of the repository is [satis.yireo.com](http://statis.yireo.com/).
+The URL of the repository is [satis.yireo.com](http://satis.yireo.com/).
 
 For further information on how to use composer for Magento modules, please visit the 
 [Magento Composer Installer](https://github.com/magento-hackathon/magento-composer-installer) project.
