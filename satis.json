@@ -1,0 +1,10 @@
+{
+   "name": "Yireo - Magento Modules",
+   "homepage": "http://satis.yireo.com",
+   "description": "Please visit https://github.com/yireo/Yireo_Satis for further informaton.",
+   "repositories": [
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_CheckoutTester" },
+      //{"type": "composer", "url": "http://satis.yireo.com/"},
+   ],
+   "require-all": true
+}
