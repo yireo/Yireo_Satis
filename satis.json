@@ -3,7 +3,12 @@
    "homepage": "http://satis.yireo.com",
    "description": "Please visit https://github.com/yireo/Yireo_Satis for further informaton.",
    "repositories": [
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_CheckoutTester" }
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_CheckoutTester" },
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_DisableLog" },
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_EmailOverride" }
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_NewRelic" }
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_SystemInfo" }
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_WebP" }
    ],
    "require-all": true
 }
