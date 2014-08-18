@@ -1,0 +1,147 @@
+{
+    "packages": {
+        "yireo/yireo_checkout-tester": {
+            "0.0.4": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "d90376909c7a9932e85930d5ae18f7d833eeee27"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/d90376909c7a9932e85930d5ae18f7d833eeee27",
+                    "reference": "d90376909c7a9932e85930d5ae18f7d833eeee27",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-06-21 10:58:45",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.0.4",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "0.1.0": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "32103b71d7069b8c2029ca0da7ef5fc58734c8ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/32103b71d7069b8c2029ca0da7ef5fc58734c8ab",
+                    "reference": "32103b71d7069b8c2029ca0da7ef5fc58734c8ab",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-06-25 15:10:01",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "dev-master": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "a89c0ab6dc7ea4b6da8d6abe97f0753106c7f6da"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/a89c0ab6dc7ea4b6da8d6abe97f0753106c7f6da",
+                    "reference": "a89c0ab6dc7ea4b6da8d6abe97f0753106c7f6da",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-08-17 11:22:04",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            }
+        }
+    }
+}
