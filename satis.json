@@ -5,10 +5,11 @@
    "repositories": [
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_CheckoutTester" },
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_DisableLog" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_EmailOverride" }
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_NewRelic" }
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_SystemInfo" }
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_WebP" }
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_EmailOverride" },
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_NewRelic" },
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_SystemInfo" },
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_WebP" },
+      { "type": "vcs", "url": "git://github.com/yireo/plg_system_sslredirect" }
    ],
    "require-all": true
 }
