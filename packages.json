@@ -1,8 +1,13 @@
 {
     "packages": [],
     "includes": {
+<<<<<<< HEAD
         "include/all$0a4476cd9f30cd44d0057aaba6f6d9fca5c5aa6c.json": {
             "sha1": "0a4476cd9f30cd44d0057aaba6f6d9fca5c5aa6c"
+=======
+        "include/all$1e43cf56b92885f440d6030b0f1f16db59b04c44.json": {
+            "sha1": "1e43cf56b92885f440d6030b0f1f16db59b04c44"
+>>>>>>> 85475186ed08479fe6e5d37d1cdc05a9dfec8b4a
         }
     }
 }
