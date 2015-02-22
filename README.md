@@ -1,4 +1,4 @@
-# Yireo Satis Repository for Composer packages #
+# Yireo Satis Repository for Composer #
 
 The URL of the repository is [satis.yireo.com](http://satis.yireo.com/).
 
@@ -13,4 +13,6 @@ For further information on how to use composer for Magento modules, please visit
 [Magento Composer Installer](https://github.com/magento-hackathon/magento-composer-installer) project.
 
 ## Joomla usage
-Coming soon
+See the COMPOSER.md file for instructions per repository. This composer integration is
+build on top of the [Nooku Installer for
+Joomla](https://github.com/nooku/nooku-installer).
