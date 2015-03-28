@@ -1,13 +1,8 @@
 {
     "packages": [],
     "includes": {
-<<<<<<< HEAD
-        "include/all$ead95dce27c3ffc7a5709c181adeb9319fccbf73.json": {
-            "sha1": "ead95dce27c3ffc7a5709c181adeb9319fccbf73"
-=======
-        "include/all$bfc99c05b04dc999b987cdcc33d0be7a4fe0698c.json": {
-            "sha1": "bfc99c05b04dc999b987cdcc33d0be7a4fe0698c"
->>>>>>> f8a32daba2d72ce41b0f6aa4bee7c3e47437737d
+        "include/all$fc6045349853a255a21d937b86af44807369edcf.json": {
+            "sha1": "fc6045349853a255a21d937b86af44807369edcf"
         }
     }
 }
