@@ -16,6 +16,7 @@
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_SystemInfo" },
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_WebP" },
       { "type": "vcs", "url": "git://github.com/yireo/plg_system_sslredirect" },
+      { "type": "vcs", "url": "git://github.com/yireo/YireoStyleLibrary" },
       { "type": "vcs", "url": "git://github.com/AOEpeople/composer-installers.git" }
    ],
    "require-all": true
