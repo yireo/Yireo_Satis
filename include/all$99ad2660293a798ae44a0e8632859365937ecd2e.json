@@ -1,0 +1,2360 @@
+{
+    "packages": {
+        "aoepeople/composer-installers": {
+            "v0.0.1": {
+                "name": "aoepeople/composer-installers",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/composer-installers.git",
+                    "reference": "9e8c507177fd9d837e3562c7dd71ee35e684e1f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AOEpeople/composer-installers/zipball/9e8c507177fd9d837e3562c7dd71ee35e684e1f4",
+                    "reference": "9e8c507177fd9d837e3562c7dd71ee35e684e1f4",
+                    "shasum": ""
+                },
+                "replace": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2014-03-07 20:11:42",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Aoepeople\\ComposerInstallers\\Installer"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Aoepeople\\ComposerInstallers\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "{firstname}.{lastname}@aoe.com"
+                    }
+                ],
+                "description": "A simple composer installer",
+                "keywords": [
+                    "Magento",
+                    "installer",
+                    "modman"
+                ],
+                "support": {
+                    "source": "https://github.com/AOEpeople/composer-installers/tree/v0.0.1",
+                    "issues": "https://github.com/AOEpeople/composer-installers/issues"
+                }
+            },
+            "dev-master": {
+                "name": "aoepeople/composer-installers",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/composer-installers.git",
+                    "reference": "9e8c507177fd9d837e3562c7dd71ee35e684e1f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/AOEpeople/composer-installers/zipball/9e8c507177fd9d837e3562c7dd71ee35e684e1f4",
+                    "reference": "9e8c507177fd9d837e3562c7dd71ee35e684e1f4",
+                    "shasum": ""
+                },
+                "replace": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2014-03-07 20:11:42",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Aoepeople\\ComposerInstallers\\Installer"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Aoepeople\\ComposerInstallers\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "{firstname}.{lastname}@aoe.com"
+                    }
+                ],
+                "description": "A simple composer installer",
+                "keywords": [
+                    "Magento",
+                    "installer",
+                    "modman"
+                ],
+                "support": {
+                    "source": "https://github.com/AOEpeople/composer-installers/tree/v0.0.1",
+                    "issues": "https://github.com/AOEpeople/composer-installers/issues"
+                }
+            }
+        },
+        "yireo/plg-system-sslredirect": {
+            "dev-master": {
+                "name": "yireo/plg-system-sslredirect",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/plg_system_sslredirect.git",
+                    "reference": "eac41bc87fc98ebb8739eb46156ef7e3e7c9c588"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/plg_system_sslredirect/zipball/eac41bc87fc98ebb8739eb46156ef7e3e7c9c588",
+                    "reference": "eac41bc87fc98ebb8739eb46156ef7e3e7c9c588",
+                    "shasum": ""
+                },
+                "require": {
+                    "nooku/nooku-framework": "2.*"
+                },
+                "time": "2015-11-03 20:29:56",
+                "type": "joomla-extension",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.x.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Yireo",
+                        "email": "info@yireo.com",
+                        "homepage": "http://www.yireo.com"
+                    }
+                ],
+                "description": "SSLRedirect plugin for Joomla",
+                "homepage": "https://github.com/yireo/plg_system_sslredirect",
+                "keywords": [
+                    "extension",
+                    "joomla",
+                    "yireo"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/plg_system_sslredirect/tree/master",
+                    "issues": "https://github.com/yireo/plg_system_sslredirect/issues"
+                }
+            }
+        },
+        "yireo/yireo_adminpreviousnext": {
+            "dev-master": {
+                "name": "yireo/yireo_adminpreviousnext",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_AdminPreviousNext.git",
+                    "reference": "e38ffd3071f0ae2fc2e22857b6503ed743e18efd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_AdminPreviousNext/zipball/e38ffd3071f0ae2fc2e22857b6503ed743e18efd",
+                    "reference": "e38ffd3071f0ae2fc2e22857b6503ed743e18efd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-11-03 20:30:43",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Adds a previous/next button on product-edit pages in the backend",
+                "homepage": "https://www.yireo.com/software/magento-extensions/adminpreviousnext",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_AdminPreviousNext/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_AdminPreviousNext/issues"
+                }
+            }
+        },
+        "yireo/yireo_categorytreeresizable": {
+            "dev-master": {
+                "name": "yireo/yireo_categorytreeresizable",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CategoryTreeResizable.git",
+                    "reference": "7a31ca705d78cb5643bc7de05b18c04b8a1cd935"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CategoryTreeResizable/zipball/7a31ca705d78cb5643bc7de05b18c04b8a1cd935",
+                    "reference": "7a31ca705d78cb5643bc7de05b18c04b8a1cd935",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-05-22 15:04:19",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Allows resizing of width of category tree panel (to view long category names)",
+                "homepage": "https://www.yireo.com/software/magento-extensions/categorytreeresizable",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CategoryTreeResizable/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_CategoryTreeResizable/issues"
+                }
+            }
+        },
+        "yireo/yireo_checkout-tester": {
+            "0.1.0": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "32103b71d7069b8c2029ca0da7ef5fc58734c8ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/32103b71d7069b8c2029ca0da7ef5fc58734c8ab",
+                    "reference": "32103b71d7069b8c2029ca0da7ef5fc58734c8ab",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-06-25 15:10:01",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "0.1.2": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "f6b3922d451e2bdc34f7100320c427104e2189c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/f6b3922d451e2bdc34f7100320c427104e2189c1",
+                    "reference": "f6b3922d451e2bdc34f7100320c427104e2189c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-09-18 07:36:59",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.2",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "0.1.3": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.3",
+                "version_normalized": "0.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "269450951b1adbca90915dbe3eaa346bc6314765"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/269450951b1adbca90915dbe3eaa346bc6314765",
+                    "reference": "269450951b1adbca90915dbe3eaa346bc6314765",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-09-18 17:20:06",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.3",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "0.1.4": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.4",
+                "version_normalized": "0.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "58cd1a15197728fa1f49a69fecc5b9f59ae56b15"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/58cd1a15197728fa1f49a69fecc5b9f59ae56b15",
+                    "reference": "58cd1a15197728fa1f49a69fecc5b9f59ae56b15",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-09-30 16:20:43",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.4",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "0.1.5": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.5",
+                "version_normalized": "0.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "37de666e7b12e1a6843c051c479ba6787fa70964"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/37de666e7b12e1a6843c051c479ba6787fa70964",
+                    "reference": "37de666e7b12e1a6843c051c479ba6787fa70964",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-04-30 08:31:20",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.5",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "0.1.6": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.6",
+                "version_normalized": "0.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "ff80b4b7ea0351c384fff095c4c9e09d2f079c19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/ff80b4b7ea0351c384fff095c4c9e09d2f079c19",
+                    "reference": "ff80b4b7ea0351c384fff095c4c9e09d2f079c19",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-07-17 10:25:48",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.6",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "0.1.7": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.7",
+                "version_normalized": "0.1.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "ff80b4b7ea0351c384fff095c4c9e09d2f079c19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/ff80b4b7ea0351c384fff095c4c9e09d2f079c19",
+                    "reference": "ff80b4b7ea0351c384fff095c4c9e09d2f079c19",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-07-17 10:25:48",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.6",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            },
+            "0.1.8": {
+                "name": "yireo/yireo_checkout-tester",
+                "version": "0.1.8",
+                "version_normalized": "0.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "da609bbc74887bbcb0e6848d770ddc11f8128931"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/da609bbc74887bbcb0e6848d770ddc11f8128931",
+                    "reference": "da609bbc74887bbcb0e6848d770ddc11f8128931",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-10-20 16:33:33",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.8",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            }
+        },
+        "yireo/Yireo_CheckoutTester": {
+            "0.0.4": {
+                "name": "yireo/Yireo_CheckoutTester",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_CheckoutTester.git",
+                    "reference": "d90376909c7a9932e85930d5ae18f7d833eeee27"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/d90376909c7a9932e85930d5ae18f7d833eeee27",
+                    "reference": "d90376909c7a9932e85930d5ae18f7d833eeee27",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-06-21 10:58:45",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Test and preview the Magento checkout success page",
+                "homepage": "https://www.yireo.com/software/magento-extensions/checkout-tester",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_CheckoutTester/tree/0.0.4",
+                    "issues": "https://github.com/yireo/Yireo_CheckoutTester/issues"
+                }
+            }
+        },
+        "yireo/yireo_disablelog": {
+            "0.0.6": {
+                "name": "yireo/yireo_disablelog",
+                "version": "0.0.6",
+                "version_normalized": "0.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_DisableLog.git",
+                    "reference": "83bc25925b46b2bbfac83286144aea7e5b9dbfe6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/83bc25925b46b2bbfac83286144aea7e5b9dbfe6",
+                    "reference": "83bc25925b46b2bbfac83286144aea7e5b9dbfe6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-11-15 10:52:55",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Disable all Magento logging to the database",
+                "homepage": "https://www.yireo.com/software/magento-extensions/disablelog",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_DisableLog/tree/0.0.6",
+                    "issues": "https://github.com/yireo/Yireo_DisableLog/issues"
+                }
+            },
+            "dev-master": {
+                "name": "yireo/yireo_disablelog",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_DisableLog.git",
+                    "reference": "96078485ae5146d8031363efb170b8d866646985"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/96078485ae5146d8031363efb170b8d866646985",
+                    "reference": "96078485ae5146d8031363efb170b8d866646985",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-11-03 20:31:27",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Disable all Magento logging to the database",
+                "homepage": "https://www.yireo.com/software/magento-extensions/disablelog",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_DisableLog/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_DisableLog/issues"
+                }
+            }
+        },
+        "yireo/yireo_emailoverride": {
+            "0.0.2": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "e8cba30d963a609738f683ab9456cf9c9191fb37"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/e8cba30d963a609738f683ab9456cf9c9191fb37",
+                    "reference": "e8cba30d963a609738f683ab9456cf9c9191fb37",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-06-30 07:00:16",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.0.2",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.0.3": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.0.3",
+                "version_normalized": "0.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "1368cbc8bc884f2ae5feb1f12638561d59dc8ad2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/1368cbc8bc884f2ae5feb1f12638561d59dc8ad2",
+                    "reference": "1368cbc8bc884f2ae5feb1f12638561d59dc8ad2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-07-04 09:13:02",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.1.0",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.1.0": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "1368cbc8bc884f2ae5feb1f12638561d59dc8ad2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/1368cbc8bc884f2ae5feb1f12638561d59dc8ad2",
+                    "reference": "1368cbc8bc884f2ae5feb1f12638561d59dc8ad2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-07-04 09:13:02",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.1.0",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.1.1": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "02b22983ddc3e030feaf4f75c60fdbd5c55f12fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/02b22983ddc3e030feaf4f75c60fdbd5c55f12fe",
+                    "reference": "02b22983ddc3e030feaf4f75c60fdbd5c55f12fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-09-04 06:43:16",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.1.2",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.1.2": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "02b22983ddc3e030feaf4f75c60fdbd5c55f12fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/02b22983ddc3e030feaf4f75c60fdbd5c55f12fe",
+                    "reference": "02b22983ddc3e030feaf4f75c60fdbd5c55f12fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-09-04 06:43:16",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.1.2",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.1.3": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.1.3",
+                "version_normalized": "0.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "22133a70060c91d691a57052c772ddaddcf12634"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/22133a70060c91d691a57052c772ddaddcf12634",
+                    "reference": "22133a70060c91d691a57052c772ddaddcf12634",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-09-08 06:27:34",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.1.3",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.1.4": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.1.4",
+                "version_normalized": "0.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "4a8b8c36a732a37de4cf05d7a0db63b5e3fc8c67"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/4a8b8c36a732a37de4cf05d7a0db63b5e3fc8c67",
+                    "reference": "4a8b8c36a732a37de4cf05d7a0db63b5e3fc8c67",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-09-24 18:58:35",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.1.4",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.1.5": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.1.5",
+                "version_normalized": "0.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "89f58f4bbaeabba01cbab073ac31c6c24f7ac15b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/89f58f4bbaeabba01cbab073ac31c6c24f7ac15b",
+                    "reference": "89f58f4bbaeabba01cbab073ac31c6c24f7ac15b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-10-03 07:13:45",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.1.5",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.1.6": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.1.6",
+                "version_normalized": "0.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "8b497dcc1c3d3dd191fe47a4b3c0278bbe702c68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/8b497dcc1c3d3dd191fe47a4b3c0278bbe702c68",
+                    "reference": "8b497dcc1c3d3dd191fe47a4b3c0278bbe702c68",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-10-06 14:05:42",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.1.6",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.0": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "1c1caf3bf477af326d44ea92580ed3b4e26dcb23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/1c1caf3bf477af326d44ea92580ed3b4e26dcb23",
+                    "reference": "1c1caf3bf477af326d44ea92580ed3b4e26dcb23",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-12-20 12:34:12",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.0",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.1": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "c5741ce4047ab912a5e582d236d130af22d32b91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/c5741ce4047ab912a5e582d236d130af22d32b91",
+                    "reference": "c5741ce4047ab912a5e582d236d130af22d32b91",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-01-04 08:46:33",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.1",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.2": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "9f90c75c0069c117555ff09ca56e65cdec5a4904"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/9f90c75c0069c117555ff09ca56e65cdec5a4904",
+                    "reference": "9f90c75c0069c117555ff09ca56e65cdec5a4904",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-03-01 16:40:18",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.2",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.3": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "1ac073f92ebd6c59c73c4bf971ef17d20197ce02"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/1ac073f92ebd6c59c73c4bf971ef17d20197ce02",
+                    "reference": "1ac073f92ebd6c59c73c4bf971ef17d20197ce02",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-03-04 09:12:51",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.3",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.4": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.4",
+                "version_normalized": "0.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "a95849065228e203c49e3af7cbae54b123bf837f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/a95849065228e203c49e3af7cbae54b123bf837f",
+                    "reference": "a95849065228e203c49e3af7cbae54b123bf837f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-03-06 07:24:02",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.4",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.5": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.5",
+                "version_normalized": "0.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "e12f2709d3ec23945d165a7b74bf3ac24dafa370"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/e12f2709d3ec23945d165a7b74bf3ac24dafa370",
+                    "reference": "e12f2709d3ec23945d165a7b74bf3ac24dafa370",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-03-12 13:55:23",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.5",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.6": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.6",
+                "version_normalized": "0.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "827fec43126cd3be2ef1b5db0b0ec41caa138404"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/827fec43126cd3be2ef1b5db0b0ec41caa138404",
+                    "reference": "827fec43126cd3be2ef1b5db0b0ec41caa138404",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-05-07 07:07:34",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.6",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.7": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.7",
+                "version_normalized": "0.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "9d1820d26766298941317aeba5c9d03dc16c5cbb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/9d1820d26766298941317aeba5c9d03dc16c5cbb",
+                    "reference": "9d1820d26766298941317aeba5c9d03dc16c5cbb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-07-29 08:18:41",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.7",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.8": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.8",
+                "version_normalized": "0.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "e12645773fa460bb1cb00989e740b4eeb7d73856"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/e12645773fa460bb1cb00989e740b4eeb7d73856",
+                    "reference": "e12645773fa460bb1cb00989e740b4eeb7d73856",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-07-29 14:45:24",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.8",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "0.2.9": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "0.2.9",
+                "version_normalized": "0.2.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "f225b491a5e6a8175fdb3a4fccc91e56ffc0a561"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/f225b491a5e6a8175fdb3a4fccc91e56ffc0a561",
+                    "reference": "f225b491a5e6a8175fdb3a4fccc91e56ffc0a561",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-09-21 07:22:53",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/0.2.9",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            },
+            "dev-master": {
+                "name": "yireo/yireo_emailoverride",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_EmailOverride.git",
+                    "reference": "6245c946cee628304b5e25ca04d0b9306530f975"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/6245c946cee628304b5e25ca04d0b9306530f975",
+                    "reference": "6245c946cee628304b5e25ca04d0b9306530f975",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-10-03 08:49:14",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder",
+                "homepage": "https://www.yireo.com/software/magento-extensions/email-override",
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_EmailOverride/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_EmailOverride/issues"
+                }
+            }
+        },
+        "yireo/yireo_newrelic": {
+            "1.2.2": {
+                "name": "yireo/yireo_newrelic",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_NewRelic.git",
+                    "reference": "2fcd6407f812aba7105f9752f02a5a28d8afd86a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/2fcd6407f812aba7105f9752f02a5a28d8afd86a",
+                    "reference": "2fcd6407f812aba7105f9752f02a5a28d8afd86a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-06-30 06:37:27",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add NewRelic JS support and PHP tracking to Magento",
+                "homepage": "https://www.yireo.com/software/magento-extensions/webp",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_NewRelic/tree/1.2.2",
+                    "issues": "https://github.com/yireo/Yireo_NewRelic/issues"
+                }
+            },
+            "1.2.3": {
+                "name": "yireo/yireo_newrelic",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_NewRelic.git",
+                    "reference": "eb24a7869d3f4ea8b7b2515116077c9fb38b3a78"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/eb24a7869d3f4ea8b7b2515116077c9fb38b3a78",
+                    "reference": "eb24a7869d3f4ea8b7b2515116077c9fb38b3a78",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-07-30 06:47:04",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add NewRelic JS support and PHP tracking to Magento",
+                "homepage": "https://www.yireo.com/software/magento-extensions/webp",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_NewRelic/tree/1.2.3",
+                    "issues": "https://github.com/yireo/Yireo_NewRelic/issues"
+                }
+            },
+            "dev-master": {
+                "name": "yireo/yireo_newrelic",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_NewRelic.git",
+                    "reference": "ee57d137b4fb1c6cbeb71c7ddac3927c666b49e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/ee57d137b4fb1c6cbeb71c7ddac3927c666b49e5",
+                    "reference": "ee57d137b4fb1c6cbeb71c7ddac3927c666b49e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-11-03 20:32:15",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add NewRelic JS support and PHP tracking to Magento",
+                "homepage": "https://www.yireo.com/software/magento-extensions/newrelic",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_NewRelic/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_NewRelic/issues"
+                }
+            }
+        },
+        "yireo/yireo_newrelic2": {
+            "0.0.1-beta": {
+                "name": "yireo/yireo_newrelic2",
+                "version": "0.0.1-beta",
+                "version_normalized": "0.0.1.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_NewRelic2.git",
+                    "reference": "37dd9e64e5d0d864e777adee80f195c49fb63462"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/37dd9e64e5d0d864e777adee80f195c49fb63462",
+                    "reference": "37dd9e64e5d0d864e777adee80f195c49fb63462",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-07-27 17:17:16",
+                "type": "magento2-module",
+                "extra": {
+                    "map": [
+                        [
+                            "source/*",
+                            "Yireo/NewRelic"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add NewRelic JS support and PHP tracking to Magento",
+                "homepage": "https://www.yireo.com/software/magento-extensions/newrelic",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_NewRelic2/tree/0.0.1-beta",
+                    "issues": "https://github.com/yireo/Yireo_NewRelic2/issues"
+                }
+            },
+            "0.1.0": {
+                "name": "yireo/yireo_newrelic2",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_NewRelic2.git",
+                    "reference": "4f8bce0762c216fa73ba488c4301ca7c325d1c8a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/4f8bce0762c216fa73ba488c4301ca7c325d1c8a",
+                    "reference": "4f8bce0762c216fa73ba488c4301ca7c325d1c8a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-08-13 09:20:04",
+                "type": "magento2-module",
+                "extra": {
+                    "map": [
+                        [
+                            "source/*",
+                            "Yireo/NewRelic2"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add NewRelic JS support and PHP tracking to Magento",
+                "homepage": "https://www.yireo.com/software/magento-extensions/newrelic",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_NewRelic2/tree/0.1.0",
+                    "issues": "https://github.com/yireo/Yireo_NewRelic2/issues"
+                }
+            },
+            "dev-master": {
+                "name": "yireo/yireo_newrelic2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_NewRelic2.git",
+                    "reference": "98fa8799c63c8bc4a30e7fec0374f5d7fa06e110"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/98fa8799c63c8bc4a30e7fec0374f5d7fa06e110",
+                    "reference": "98fa8799c63c8bc4a30e7fec0374f5d7fa06e110",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-10-26 07:11:13",
+                "type": "magento2-module",
+                "extra": {
+                    "map": [
+                        [
+                            "source/*",
+                            "Yireo/NewRelic2"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add NewRelic JS support and PHP tracking to Magento",
+                "homepage": "https://www.yireo.com/software/magento-extensions/newrelic",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_NewRelic2/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_NewRelic2/issues"
+                }
+            }
+        },
+        "yireo/yireo_producttemplates": {
+            "0.1.0": {
+                "name": "yireo/yireo_producttemplates",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_ProductTemplates.git",
+                    "reference": "b128955493c383f5fc5a2beb037de86a366d6a89"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_ProductTemplates/zipball/b128955493c383f5fc5a2beb037de86a366d6a89",
+                    "reference": "b128955493c383f5fc5a2beb037de86a366d6a89",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-05-23 09:05:02",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Allows for new products to be filled in with default values",
+                "homepage": "https://www.yireo.com/software/magento-extensions/producttemplates",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_ProductTemplates/tree/0.1.0",
+                    "issues": "https://github.com/yireo/Yireo_ProductTemplates/issues"
+                }
+            },
+            "0.2.1": {
+                "name": "yireo/yireo_producttemplates",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_ProductTemplates.git",
+                    "reference": "510d6b039511443605eae1f211e96d3fa09be50d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_ProductTemplates/zipball/510d6b039511443605eae1f211e96d3fa09be50d",
+                    "reference": "510d6b039511443605eae1f211e96d3fa09be50d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-10-21 06:36:57",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Allows for new products to be filled in with default values",
+                "homepage": "https://www.yireo.com/software/magento-extensions/producttemplates",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_ProductTemplates/tree/0.2.1",
+                    "issues": "https://github.com/yireo/Yireo_ProductTemplates/issues"
+                }
+            },
+            "dev-master": {
+                "name": "yireo/yireo_producttemplates",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_ProductTemplates.git",
+                    "reference": "510d6b039511443605eae1f211e96d3fa09be50d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_ProductTemplates/zipball/510d6b039511443605eae1f211e96d3fa09be50d",
+                    "reference": "510d6b039511443605eae1f211e96d3fa09be50d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-10-21 06:36:57",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Allows for new products to be filled in with default values",
+                "homepage": "https://www.yireo.com/software/magento-extensions/producttemplates",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_ProductTemplates/tree/0.2.1",
+                    "issues": "https://github.com/yireo/Yireo_ProductTemplates/issues"
+                }
+            }
+        },
+        "yireo/yireo_systeminfo": {
+            "1.0.9": {
+                "name": "yireo/yireo_systeminfo",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_SystemInfo.git",
+                    "reference": "4b6578eaa5be78e23e23793f02c425bcf892051a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_SystemInfo/zipball/4b6578eaa5be78e23e23793f02c425bcf892051a",
+                    "reference": "4b6578eaa5be78e23e23793f02c425bcf892051a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-06-30 06:51:57",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add WebP image support to your Magento pages",
+                "homepage": "https://www.yireo.com/software/magento-extensions/webp",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_SystemInfo/tree/1.0.9",
+                    "issues": "https://github.com/yireo/Yireo_SystemInfo/issues"
+                }
+            },
+            "dev-master": {
+                "name": "yireo/yireo_systeminfo",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_SystemInfo.git",
+                    "reference": "d904714570251f1daad6e1b09531dfa8d552ed1b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_SystemInfo/zipball/d904714570251f1daad6e1b09531dfa8d552ed1b",
+                    "reference": "d904714570251f1daad6e1b09531dfa8d552ed1b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-11-03 20:37:39",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Display useful system information in Magento backend",
+                "homepage": "https://www.yireo.com/software/magento-extensions/systeminfo",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_SystemInfo/tree/master",
+                    "issues": "https://github.com/yireo/Yireo_SystemInfo/issues"
+                }
+            }
+        },
+        "yireo/yireo_webp": {
+            "1.0.0": {
+                "name": "yireo/yireo_webp",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_WebP.git",
+                    "reference": "54b5cb1ddb5a5181dc2a97e3c8df0c9cb2de488e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_WebP/zipball/54b5cb1ddb5a5181dc2a97e3c8df0c9cb2de488e",
+                    "reference": "54b5cb1ddb5a5181dc2a97e3c8df0c9cb2de488e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-01-07 09:36:45",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add WebP image support to your Magento pages",
+                "homepage": "https://www.yireo.com/software/magento-extensions/webp",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_WebP/tree/1.0.0"
+                }
+            },
+            "1.0.1": {
+                "name": "yireo/yireo_webp",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_WebP.git",
+                    "reference": "54b5cb1ddb5a5181dc2a97e3c8df0c9cb2de488e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_WebP/zipball/54b5cb1ddb5a5181dc2a97e3c8df0c9cb2de488e",
+                    "reference": "54b5cb1ddb5a5181dc2a97e3c8df0c9cb2de488e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-01-07 09:36:45",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add WebP image support to your Magento pages",
+                "homepage": "https://www.yireo.com/software/magento-extensions/webp",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_WebP/tree/1.0.0"
+                }
+            },
+            "1.0.2": {
+                "name": "yireo/yireo_webp",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_WebP.git",
+                    "reference": "48d5c3041a649ae00fa5d4c960a36cdd7a4dfe57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_WebP/zipball/48d5c3041a649ae00fa5d4c960a36cdd7a4dfe57",
+                    "reference": "48d5c3041a649ae00fa5d4c960a36cdd7a4dfe57",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-05-26 07:43:39",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add WebP image support to your Magento pages",
+                "homepage": "https://www.yireo.com/software/magento-extensions/webp",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_WebP/tree/1.0.2"
+                }
+            },
+            "dev-master": {
+                "name": "yireo/yireo_webp",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/yireo/Yireo_WebP.git",
+                    "reference": "a5cf58f7d6ba7086fc663acb436e7d55639af9f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/yireo/Yireo_WebP/zipball/a5cf58f7d6ba7086fc663acb436e7d55639af9f5",
+                    "reference": "a5cf58f7d6ba7086fc663acb436e7d55639af9f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "composer/composer": "*@dev",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2015-11-03 20:37:50",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "source/"
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jisse Reitsma (Yireo)",
+                        "email": "jisse@yireo.com"
+                    }
+                ],
+                "description": "Add WebP image support to your Magento pages",
+                "homepage": "https://www.yireo.com/software/magento-extensions/webp",
+                "keywords": [
+                    "composer-installer",
+                    "magento"
+                ],
+                "support": {
+                    "source": "https://github.com/yireo/Yireo_WebP/tree/master"
+                }
+            }
+        }
+    }
+}
