@@ -34,16 +34,22 @@ th { background-color: #eee }
 input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 #lastupdate { text-align: right; }
 #lastupdate time { font-weight: bold; }
+.abandoned { border: 1px solid #800; background: #fee; text-align: center; padding: 5px; margin: 20px 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.package-title .anchor { display: inline-block; padding-right: 2px; margin-left: -18px; }
+.package-title .anchor .octicon-link { vertical-align: middle; visibility: hidden; }
+.package-title:hover .anchor .octicon-link { visibility: visible; }
     </style>
 </head>
 <body>
 
     <div id="doc" class="yui-t7">
         <div id="hd">
-            <h1>Yireo - Extensions for Joomla and Magento Composer Repository</h1>
+            <h1>
+                                    Yireo - Extensions for Joomla and Magento
+                            </h1>
                             <p>Please visit https://github.com/yireo/Yireo_Satis for further informaton.</p>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-03-22T15:34:44+0100">Tue, 22 Mar 2016 15:34:44 +0100</time>
+                Last updated: <time datetime="2016-08-05T14:55:36+0200">Fri, 05 Aug 2016 14:55:36 +0200</time>
             </div>
         </div>
         <div id="bd">
@@ -53,7 +59,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
     "repositories": [
         {
             "type": "composer",
-            "url": "http://satis.yireo.com"
+            "url": "https://satis.yireo.com"
         }
     ]
 }</code></pre>
@@ -61,34 +67,10 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                 Filter by package name:
                 <input type="text" id="search" autocomplete="off" autofocus />
 
+                <div id="package-list">
                                     <div>
-                        <h3 id="aoepeople/composer-installers">aoepeople/composer-installers</h3>
-                                                    <p>A simple composer installer</p>
-                                                <table>
-                                                                                        <tr>
-                                    <th>License</th>
-                                    <td>GPL</td>
-                                </tr>
-                                                                                        <tr>
-                                    <th>Authors</th>
-                                    <td>
-                                        Fabrizio Branca                                    </td>
-                                </tr>
-                                                        <tr>
-                                <th>Releases</th>
-                                <td>
-                                    <a href="https://api.github.com/repos/AOEpeople/composer-installers/zipball/6c345190669b67b7ffd91eb48109d71c16bec6b1" title="6c345190669b67b7ffd91eb48109d71c16bec6b1">dev-master</a>, <a href="https://api.github.com/repos/AOEpeople/composer-installers/zipball/6c345190669b67b7ffd91eb48109d71c16bec6b1" title="6c345190669b67b7ffd91eb48109d71c16bec6b1">v0.0.4</a>, <a href="https://api.github.com/repos/AOEpeople/composer-installers/zipball/e0641711aae7c462f0d961bc096fb97b7a38e856" title="e0641711aae7c462f0d961bc096fb97b7a38e856">v0.0.3</a>, <a href="https://api.github.com/repos/AOEpeople/composer-installers/zipball/9ede0171ae0b184eb5d4f594e27e4c4f3baa3d4a" title="9ede0171ae0b184eb5d4f594e27e4c4f3baa3d4a">v0.0.2</a>, <a href="https://api.github.com/repos/AOEpeople/composer-installers/zipball/9e8c507177fd9d837e3562c7dd71ee35e684e1f4" title="9e8c507177fd9d837e3562c7dd71ee35e684e1f4">v0.0.1</a>                                </td>
-                            </tr>
-                            <tr>
-                                <th>Required by</th>
-                                <td>
-                                                                                                        </td>
-                            </tr>
-                        </table>
-                    </div>
-                                    <div>
-                        <h3 id="yireo/plg-system-sslredirect">yireo/plg-system-sslredirect</h3>
-                                                    <p>SSLRedirect plugin for Joomla</p>
+                        <h3 id="yireo/plg-system-sslredirect" class="package-title"><a href="#yireo/plg-system-sslredirect" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/plg-system-sslredirect</h3>
+                                                                            <p>SSLRedirect plugin for Joomla</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -103,6 +85,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         <a href="http://www.yireo.com">Yireo</a>                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/plg_system_sslredirect/tree/master">https://github.com/yireo/plg_system_sslredirect/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/plg_system_sslredirect/issues">https://github.com/yireo/plg_system_sslredirect/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -116,8 +107,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo-style-library">yireo/yireo-style-library</h3>
-                                                    <p>Library of Yireo Style elements</p>
+                        <h3 id="yireo/yireo-style-library" class="package-title"><a href="#yireo/yireo-style-library" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo-style-library</h3>
+                                                                            <p>Library of Yireo Style elements</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -132,10 +123,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/YireoStyleLibrary/tree/master">https://github.com/yireo/YireoStyleLibrary/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/YireoStyleLibrary/issues">https://github.com/yireo/YireoStyleLibrary/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/YireoStyleLibrary/zipball/e389874aa6322c8a65c607ae99c1d164c7c026d1" title="e389874aa6322c8a65c607ae99c1d164c7c026d1">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/YireoStyleLibrary/zipball/0cd0982dac41d32fe545443d0bf9a3507af5a1e4" title="0cd0982dac41d32fe545443d0bf9a3507af5a1e4">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -145,8 +145,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_adminpreviousnext">yireo/yireo_adminpreviousnext</h3>
-                                                    <p>Adds a previous/next button on product-edit pages in the backend</p>
+                        <h3 id="yireo/yireo_adminpreviousnext" class="package-title"><a href="#yireo/yireo_adminpreviousnext" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_adminpreviousnext</h3>
+                                                                            <p>Adds a previous/next button on product-edit pages in the backend</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -161,6 +161,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_AdminPreviousNext/tree/0.0.3">https://github.com/yireo/Yireo_AdminPreviousNext/tree/0.0.3</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_AdminPreviousNext/issues">https://github.com/yireo/Yireo_AdminPreviousNext/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -174,8 +183,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_categorytreeresizable">yireo/yireo_categorytreeresizable</h3>
-                                                    <p>Allows resizing of width of category tree panel (to view long category names)</p>
+                        <h3 id="yireo/yireo_categorytreeresizable" class="package-title"><a href="#yireo/yireo_categorytreeresizable" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_categorytreeresizable</h3>
+                                                                            <p>Allows resizing of width of category tree panel (to view long category names)</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -190,6 +199,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_CategoryTreeResizable/tree/master">https://github.com/yireo/Yireo_CategoryTreeResizable/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_CategoryTreeResizable/issues">https://github.com/yireo/Yireo_CategoryTreeResizable/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -203,8 +221,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_checkout-tester">yireo/yireo_checkout-tester</h3>
-                                                    <p>Test and preview the Magento checkout success page</p>
+                        <h3 id="yireo/yireo_checkout-tester" class="package-title"><a href="#yireo/yireo_checkout-tester" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_checkout-tester</h3>
+                                                                            <p>Test and preview the Magento checkout success page</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -219,10 +237,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.9">https://github.com/yireo/Yireo_CheckoutTester/tree/0.1.9</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_CheckoutTester/issues">https://github.com/yireo/Yireo_CheckoutTester/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/da609bbc74887bbcb0e6848d770ddc11f8128931" title="da609bbc74887bbcb0e6848d770ddc11f8128931">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/da609bbc74887bbcb0e6848d770ddc11f8128931" title="da609bbc74887bbcb0e6848d770ddc11f8128931">0.1.8</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/ff80b4b7ea0351c384fff095c4c9e09d2f079c19" title="ff80b4b7ea0351c384fff095c4c9e09d2f079c19">0.1.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/ff80b4b7ea0351c384fff095c4c9e09d2f079c19" title="ff80b4b7ea0351c384fff095c4c9e09d2f079c19">0.1.6</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/37de666e7b12e1a6843c051c479ba6787fa70964" title="37de666e7b12e1a6843c051c479ba6787fa70964">0.1.5</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/58cd1a15197728fa1f49a69fecc5b9f59ae56b15" title="58cd1a15197728fa1f49a69fecc5b9f59ae56b15">0.1.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/269450951b1adbca90915dbe3eaa346bc6314765" title="269450951b1adbca90915dbe3eaa346bc6314765">0.1.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/f6b3922d451e2bdc34f7100320c427104e2189c1" title="f6b3922d451e2bdc34f7100320c427104e2189c1">0.1.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/32103b71d7069b8c2029ca0da7ef5fc58734c8ab" title="32103b71d7069b8c2029ca0da7ef5fc58734c8ab">0.1.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/d90376909c7a9932e85930d5ae18f7d833eeee27" title="d90376909c7a9932e85930d5ae18f7d833eeee27">0.0.4</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/ad5be8e9524bf28f4f83a5375d9603845ba51fce" title="ad5be8e9524bf28f4f83a5375d9603845ba51fce">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/ad5be8e9524bf28f4f83a5375d9603845ba51fce" title="ad5be8e9524bf28f4f83a5375d9603845ba51fce">0.1.9</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/da609bbc74887bbcb0e6848d770ddc11f8128931" title="da609bbc74887bbcb0e6848d770ddc11f8128931">0.1.8</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/ff80b4b7ea0351c384fff095c4c9e09d2f079c19" title="ff80b4b7ea0351c384fff095c4c9e09d2f079c19">0.1.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/ff80b4b7ea0351c384fff095c4c9e09d2f079c19" title="ff80b4b7ea0351c384fff095c4c9e09d2f079c19">0.1.6</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/37de666e7b12e1a6843c051c479ba6787fa70964" title="37de666e7b12e1a6843c051c479ba6787fa70964">0.1.5</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/58cd1a15197728fa1f49a69fecc5b9f59ae56b15" title="58cd1a15197728fa1f49a69fecc5b9f59ae56b15">0.1.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/269450951b1adbca90915dbe3eaa346bc6314765" title="269450951b1adbca90915dbe3eaa346bc6314765">0.1.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/f6b3922d451e2bdc34f7100320c427104e2189c1" title="f6b3922d451e2bdc34f7100320c427104e2189c1">0.1.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/32103b71d7069b8c2029ca0da7ef5fc58734c8ab" title="32103b71d7069b8c2029ca0da7ef5fc58734c8ab">0.1.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_CheckoutTester/zipball/d90376909c7a9932e85930d5ae18f7d833eeee27" title="d90376909c7a9932e85930d5ae18f7d833eeee27">0.0.4</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -232,8 +259,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_disablelog">yireo/yireo_disablelog</h3>
-                                                    <p>Disable all Magento logging to the database</p>
+                        <h3 id="yireo/yireo_disablelog" class="package-title"><a href="#yireo/yireo_disablelog" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_disablelog</h3>
+                                                                            <p>Disable all Magento logging to the database</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -248,10 +275,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_DisableLog/tree/master">https://github.com/yireo/Yireo_DisableLog/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_DisableLog/issues">https://github.com/yireo/Yireo_DisableLog/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/a15f8bf611484036cb0db66396cfbca7199f8d29" title="a15f8bf611484036cb0db66396cfbca7199f8d29">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/a15f8bf611484036cb0db66396cfbca7199f8d29" title="a15f8bf611484036cb0db66396cfbca7199f8d29">0.0.8</a>, <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/96078485ae5146d8031363efb170b8d866646985" title="96078485ae5146d8031363efb170b8d866646985">0.0.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/83bc25925b46b2bbfac83286144aea7e5b9dbfe6" title="83bc25925b46b2bbfac83286144aea7e5b9dbfe6">0.0.6</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/4bdddfbda02f78b756f363d0b46de2b28cf92c56" title="4bdddfbda02f78b756f363d0b46de2b28cf92c56">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/f9d3bc9ea119a111acb07c99a93c6a48955f79cc" title="f9d3bc9ea119a111acb07c99a93c6a48955f79cc">0.0.9</a>, <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/a15f8bf611484036cb0db66396cfbca7199f8d29" title="a15f8bf611484036cb0db66396cfbca7199f8d29">0.0.8</a>, <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/96078485ae5146d8031363efb170b8d866646985" title="96078485ae5146d8031363efb170b8d866646985">0.0.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_DisableLog/zipball/83bc25925b46b2bbfac83286144aea7e5b9dbfe6" title="83bc25925b46b2bbfac83286144aea7e5b9dbfe6">0.0.6</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -261,8 +297,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_emailoverride">yireo/yireo_emailoverride</h3>
-                                                    <p>Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder</p>
+                        <h3 id="yireo/yireo_emailoverride" class="package-title"><a href="#yireo/yireo_emailoverride" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_emailoverride</h3>
+                                                                            <p>Override Magento emails in your app/design/frontend/PACKAGE/THEME/locale folder</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -277,10 +313,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_EmailOverride/tree/master">https://github.com/yireo/Yireo_EmailOverride/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_EmailOverride/issues">https://github.com/yireo/Yireo_EmailOverride/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/e0164137c1a1d4f4e38379b5030608869b16a11c" title="e0164137c1a1d4f4e38379b5030608869b16a11c">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/e0164137c1a1d4f4e38379b5030608869b16a11c" title="e0164137c1a1d4f4e38379b5030608869b16a11c">0.2.11</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/0921782820d36ee79152dfc34dda408bcc4a880a" title="0921782820d36ee79152dfc34dda408bcc4a880a">0.2.10</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/f225b491a5e6a8175fdb3a4fccc91e56ffc0a561" title="f225b491a5e6a8175fdb3a4fccc91e56ffc0a561">0.2.9</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/e12645773fa460bb1cb00989e740b4eeb7d73856" title="e12645773fa460bb1cb00989e740b4eeb7d73856">0.2.8</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/9d1820d26766298941317aeba5c9d03dc16c5cbb" title="9d1820d26766298941317aeba5c9d03dc16c5cbb">0.2.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/827fec43126cd3be2ef1b5db0b0ec41caa138404" title="827fec43126cd3be2ef1b5db0b0ec41caa138404">0.2.6</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/e12f2709d3ec23945d165a7b74bf3ac24dafa370" title="e12f2709d3ec23945d165a7b74bf3ac24dafa370">0.2.5</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/a95849065228e203c49e3af7cbae54b123bf837f" title="a95849065228e203c49e3af7cbae54b123bf837f">0.2.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/1ac073f92ebd6c59c73c4bf971ef17d20197ce02" title="1ac073f92ebd6c59c73c4bf971ef17d20197ce02">0.2.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/9f90c75c0069c117555ff09ca56e65cdec5a4904" title="9f90c75c0069c117555ff09ca56e65cdec5a4904">0.2.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/c5741ce4047ab912a5e582d236d130af22d32b91" title="c5741ce4047ab912a5e582d236d130af22d32b91">0.2.1</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/1c1caf3bf477af326d44ea92580ed3b4e26dcb23" title="1c1caf3bf477af326d44ea92580ed3b4e26dcb23">0.2.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/8b497dcc1c3d3dd191fe47a4b3c0278bbe702c68" title="8b497dcc1c3d3dd191fe47a4b3c0278bbe702c68">0.1.6</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/89f58f4bbaeabba01cbab073ac31c6c24f7ac15b" title="89f58f4bbaeabba01cbab073ac31c6c24f7ac15b">0.1.5</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/4a8b8c36a732a37de4cf05d7a0db63b5e3fc8c67" title="4a8b8c36a732a37de4cf05d7a0db63b5e3fc8c67">0.1.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/22133a70060c91d691a57052c772ddaddcf12634" title="22133a70060c91d691a57052c772ddaddcf12634">0.1.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/02b22983ddc3e030feaf4f75c60fdbd5c55f12fe" title="02b22983ddc3e030feaf4f75c60fdbd5c55f12fe">0.1.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/02b22983ddc3e030feaf4f75c60fdbd5c55f12fe" title="02b22983ddc3e030feaf4f75c60fdbd5c55f12fe">0.1.1</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/1368cbc8bc884f2ae5feb1f12638561d59dc8ad2" title="1368cbc8bc884f2ae5feb1f12638561d59dc8ad2">0.1.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/1368cbc8bc884f2ae5feb1f12638561d59dc8ad2" title="1368cbc8bc884f2ae5feb1f12638561d59dc8ad2">0.0.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/e8cba30d963a609738f683ab9456cf9c9191fb37" title="e8cba30d963a609738f683ab9456cf9c9191fb37">0.0.2</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_EmailOverride/zipball/6094a7c77f0b7b69635745544ab59524448138e7" title="6094a7c77f0b7b69635745544ab59524448138e7">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -290,8 +335,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_googletagmanager">yireo/yireo_googletagmanager</h3>
-                                                    <p>Implement Google Tag Manager in Magento</p>
+                        <h3 id="yireo/yireo_googletagmanager" class="package-title"><a href="#yireo/yireo_googletagmanager" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_googletagmanager</h3>
+                                                                            <p>Implement Google Tag Manager in Magento</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -306,10 +351,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_GoogleTagManager/tree/1.3.26">https://github.com/yireo/Yireo_GoogleTagManager/tree/1.3.26</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_GoogleTagManager/issues">https://github.com/yireo/Yireo_GoogleTagManager/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/edb0ecd7852b567f765aaa5806cc854d33d7b178" title="edb0ecd7852b567f765aaa5806cc854d33d7b178">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/edb0ecd7852b567f765aaa5806cc854d33d7b178" title="edb0ecd7852b567f765aaa5806cc854d33d7b178">1.3.13</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/d2b56620dc708382d44e59e2c5060ab345f4866c" title="d2b56620dc708382d44e59e2c5060ab345f4866c">1.3.12</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/d2b56620dc708382d44e59e2c5060ab345f4866c" title="d2b56620dc708382d44e59e2c5060ab345f4866c">1.3.11</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/9cd6e41f71678cdfcadf84febf7987577261cfc5" title="9cd6e41f71678cdfcadf84febf7987577261cfc5">1.3.10</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/e2c7c098a9e477f0f48950faa9120f9c345376c2" title="e2c7c098a9e477f0f48950faa9120f9c345376c2">1.3.9</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/f44ad6329768dacff6160ee611bbb381c3643c25" title="f44ad6329768dacff6160ee611bbb381c3643c25">1.3.8</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/f2a5a04de9fd001ba1489d293127fc4a08a23075" title="f2a5a04de9fd001ba1489d293127fc4a08a23075">1.3.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/d7de0786b346ba64786f17a51327d1124f95ddbb" title="d7de0786b346ba64786f17a51327d1124f95ddbb">1.3.6</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/f26c80857076d95ffd516d2d57726353dc98e25e" title="f26c80857076d95ffd516d2d57726353dc98e25e">1.3.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/25fa88621c2899ce95b74a6083ebc057dece5eec" title="25fa88621c2899ce95b74a6083ebc057dece5eec">1.3.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/dc7be73506bc314dd2d8f81255c41dcb2ad322ca" title="dc7be73506bc314dd2d8f81255c41dcb2ad322ca">1.3.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/5a865a9a440e209f23d6b40be7925f3c79169fdb" title="5a865a9a440e209f23d6b40be7925f3c79169fdb">1.3.1</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/762d29476a0343ff7bddb81ab39a2e2e1df9f13b" title="762d29476a0343ff7bddb81ab39a2e2e1df9f13b">1.3.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/49846d602fc3ea47cff3e9e8acbfcdc2efaca58c" title="49846d602fc3ea47cff3e9e8acbfcdc2efaca58c">1.2.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/6fb0abe5bc868e4b2c63ae5e4d7269ec58161fc9" title="6fb0abe5bc868e4b2c63ae5e4d7269ec58161fc9">1.2.6</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/ee84e16271fe69678901751b589c252bcc021de3" title="ee84e16271fe69678901751b589c252bcc021de3">1.2.5</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/0656ed3757d09c5024455687adc04c3c17c44a6f" title="0656ed3757d09c5024455687adc04c3c17c44a6f">1.2.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/1d6dab801e1884d94654065dd87124a92b3392db" title="1d6dab801e1884d94654065dd87124a92b3392db">1.2.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/c08247f487e9317c78c931ddd009cf615f292058" title="c08247f487e9317c78c931ddd009cf615f292058">1.2.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/c22723e8c3b88b1caba9d41aa2481c42b0624d07" title="c22723e8c3b88b1caba9d41aa2481c42b0624d07">1.2.1</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/c22723e8c3b88b1caba9d41aa2481c42b0624d07" title="c22723e8c3b88b1caba9d41aa2481c42b0624d07">1.2.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/afde513da53062acdc7c89da50038f56704ef0ac" title="afde513da53062acdc7c89da50038f56704ef0ac">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/afde513da53062acdc7c89da50038f56704ef0ac" title="afde513da53062acdc7c89da50038f56704ef0ac">1.3.26</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/c4ab69bea4f64fc7744b1b4df7f104a61f450b63" title="c4ab69bea4f64fc7744b1b4df7f104a61f450b63">1.3.25</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/be1527ac9f1167dde02dfc8323bc8406f09fbdfb" title="be1527ac9f1167dde02dfc8323bc8406f09fbdfb">1.3.24</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/a3a9bfe1ef540ab08a30e17b125fff30fdf2d5cd" title="a3a9bfe1ef540ab08a30e17b125fff30fdf2d5cd">1.3.23</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/fa5401415e8e4dd9c681edc516c0a0e0bbe2918e" title="fa5401415e8e4dd9c681edc516c0a0e0bbe2918e">1.3.22</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/36e562160ea8729c8a8e0c3e6168870fa4bf2c35" title="36e562160ea8729c8a8e0c3e6168870fa4bf2c35">1.3.21</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/8809fa9a9848044ca60baf96a0e08cd7e6cf6de9" title="8809fa9a9848044ca60baf96a0e08cd7e6cf6de9">1.3.20</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/88bc1b60850d2d30f2f5b5a7673638d247edff06" title="88bc1b60850d2d30f2f5b5a7673638d247edff06">1.3.19</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/cd5c3ed42c4a09b9ba5545f8e56c55fa2eca569e" title="cd5c3ed42c4a09b9ba5545f8e56c55fa2eca569e">1.3.18</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/fa742190f5f5bd00769b9bfa6835355a4125db66" title="fa742190f5f5bd00769b9bfa6835355a4125db66">1.3.17</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/cfc7218a6ef803c76b90ddb23d25f466115ad096" title="cfc7218a6ef803c76b90ddb23d25f466115ad096">1.3.16</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/8aa1237ce7cc2af6b1661d1b1161b1e4165aafb7" title="8aa1237ce7cc2af6b1661d1b1161b1e4165aafb7">1.3.15</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/700fdc24752e366c89c9b1437c1ec544c1469047" title="700fdc24752e366c89c9b1437c1ec544c1469047">1.3.14</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/edb0ecd7852b567f765aaa5806cc854d33d7b178" title="edb0ecd7852b567f765aaa5806cc854d33d7b178">1.3.13</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/d2b56620dc708382d44e59e2c5060ab345f4866c" title="d2b56620dc708382d44e59e2c5060ab345f4866c">1.3.12</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/d2b56620dc708382d44e59e2c5060ab345f4866c" title="d2b56620dc708382d44e59e2c5060ab345f4866c">1.3.11</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/9cd6e41f71678cdfcadf84febf7987577261cfc5" title="9cd6e41f71678cdfcadf84febf7987577261cfc5">1.3.10</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/e2c7c098a9e477f0f48950faa9120f9c345376c2" title="e2c7c098a9e477f0f48950faa9120f9c345376c2">1.3.9</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/f44ad6329768dacff6160ee611bbb381c3643c25" title="f44ad6329768dacff6160ee611bbb381c3643c25">1.3.8</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/f2a5a04de9fd001ba1489d293127fc4a08a23075" title="f2a5a04de9fd001ba1489d293127fc4a08a23075">1.3.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/d7de0786b346ba64786f17a51327d1124f95ddbb" title="d7de0786b346ba64786f17a51327d1124f95ddbb">1.3.6</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/39965447302ce098fba9ea419aa3d23800256ff5" title="39965447302ce098fba9ea419aa3d23800256ff5">1.3.5</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/f26c80857076d95ffd516d2d57726353dc98e25e" title="f26c80857076d95ffd516d2d57726353dc98e25e">1.3.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/25fa88621c2899ce95b74a6083ebc057dece5eec" title="25fa88621c2899ce95b74a6083ebc057dece5eec">1.3.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/dc7be73506bc314dd2d8f81255c41dcb2ad322ca" title="dc7be73506bc314dd2d8f81255c41dcb2ad322ca">1.3.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/5a865a9a440e209f23d6b40be7925f3c79169fdb" title="5a865a9a440e209f23d6b40be7925f3c79169fdb">1.3.1</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/762d29476a0343ff7bddb81ab39a2e2e1df9f13b" title="762d29476a0343ff7bddb81ab39a2e2e1df9f13b">1.3.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/49846d602fc3ea47cff3e9e8acbfcdc2efaca58c" title="49846d602fc3ea47cff3e9e8acbfcdc2efaca58c">1.2.7</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/6fb0abe5bc868e4b2c63ae5e4d7269ec58161fc9" title="6fb0abe5bc868e4b2c63ae5e4d7269ec58161fc9">1.2.6</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/ee84e16271fe69678901751b589c252bcc021de3" title="ee84e16271fe69678901751b589c252bcc021de3">1.2.5</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/0656ed3757d09c5024455687adc04c3c17c44a6f" title="0656ed3757d09c5024455687adc04c3c17c44a6f">1.2.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/1d6dab801e1884d94654065dd87124a92b3392db" title="1d6dab801e1884d94654065dd87124a92b3392db">1.2.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/c08247f487e9317c78c931ddd009cf615f292058" title="c08247f487e9317c78c931ddd009cf615f292058">1.2.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/c22723e8c3b88b1caba9d41aa2481c42b0624d07" title="c22723e8c3b88b1caba9d41aa2481c42b0624d07">1.2.1</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager/zipball/c22723e8c3b88b1caba9d41aa2481c42b0624d07" title="c22723e8c3b88b1caba9d41aa2481c42b0624d07">1.2.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -319,8 +373,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_googletagmanager2">yireo/yireo_googletagmanager2</h3>
-                                                    <p>Add Google Tag Manager to Magento</p>
+                        <h3 id="yireo/yireo_googletagmanager2" class="package-title"><a href="#yireo/yireo_googletagmanager2" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_googletagmanager2</h3>
+                                                                            <p>Add Google Tag Manager to Magento</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -335,10 +389,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_GoogleTagManager2/tree/0.2.5">https://github.com/yireo/Yireo_GoogleTagManager2/tree/0.2.5</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_GoogleTagManager2/issues">https://github.com/yireo/Yireo_GoogleTagManager2/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/9176b5ff71bf2cb080a80e449f1c1202d8bc932c" title="9176b5ff71bf2cb080a80e449f1c1202d8bc932c">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/9176b5ff71bf2cb080a80e449f1c1202d8bc932c" title="9176b5ff71bf2cb080a80e449f1c1202d8bc932c">0.2.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/09f370a20046823bb56453e4bb2593a714d000ba" title="09f370a20046823bb56453e4bb2593a714d000ba">0.1.0</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/faa183f9450ee0ebd068dcc59b4b0102094bbca9" title="faa183f9450ee0ebd068dcc59b4b0102094bbca9">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/45c27ac74e28d75a1a35a2189a712f0a5de57a2a" title="45c27ac74e28d75a1a35a2189a712f0a5de57a2a">0.2.4</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/9a08ab77ecc74b07241552e71a34456014954095" title="9a08ab77ecc74b07241552e71a34456014954095">0.2.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/2d170a7873658a03bcd16b2e8e085570a736925d" title="2d170a7873658a03bcd16b2e8e085570a736925d">0.2.2</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/502dd4fe7a6cc4ca4b115ae6bc94cb4e76d41e79" title="502dd4fe7a6cc4ca4b115ae6bc94cb4e76d41e79">0.2.1</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/9176b5ff71bf2cb080a80e449f1c1202d8bc932c" title="9176b5ff71bf2cb080a80e449f1c1202d8bc932c">0.2.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_GoogleTagManager2/zipball/09f370a20046823bb56453e4bb2593a714d000ba" title="09f370a20046823bb56453e4bb2593a714d000ba">0.1.0</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -348,8 +411,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_newrelic">yireo/yireo_newrelic</h3>
-                                                    <p>Add NewRelic JS support and PHP tracking to Magento</p>
+                        <h3 id="yireo/yireo_newrelic" class="package-title"><a href="#yireo/yireo_newrelic" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_newrelic</h3>
+                                                                            <p>Add NewRelic JS support and PHP tracking to Magento</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -364,10 +427,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_NewRelic/tree/1.2.5">https://github.com/yireo/Yireo_NewRelic/tree/1.2.5</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_NewRelic/issues">https://github.com/yireo/Yireo_NewRelic/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/ee57d137b4fb1c6cbeb71c7ddac3927c666b49e5" title="ee57d137b4fb1c6cbeb71c7ddac3927c666b49e5">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/eb24a7869d3f4ea8b7b2515116077c9fb38b3a78" title="eb24a7869d3f4ea8b7b2515116077c9fb38b3a78">1.2.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/2fcd6407f812aba7105f9752f02a5a28d8afd86a" title="2fcd6407f812aba7105f9752f02a5a28d8afd86a">1.2.2</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/c9a01e185d8523d4e09fdca4164096d587da2201" title="c9a01e185d8523d4e09fdca4164096d587da2201">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/c9a01e185d8523d4e09fdca4164096d587da2201" title="c9a01e185d8523d4e09fdca4164096d587da2201">1.2.5</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/eb24a7869d3f4ea8b7b2515116077c9fb38b3a78" title="eb24a7869d3f4ea8b7b2515116077c9fb38b3a78">1.2.3</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic/zipball/2fcd6407f812aba7105f9752f02a5a28d8afd86a" title="2fcd6407f812aba7105f9752f02a5a28d8afd86a">1.2.2</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -377,8 +449,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_newrelic2">yireo/yireo_newrelic2</h3>
-                                                    <p>Add NewRelic JS support and PHP tracking to Magento</p>
+                        <h3 id="yireo/yireo_newrelic2" class="package-title"><a href="#yireo/yireo_newrelic2" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_newrelic2</h3>
+                                                                            <p>Add NewRelic JS support and PHP tracking to Magento</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -393,10 +465,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_NewRelic2/tree/0.3.0">https://github.com/yireo/Yireo_NewRelic2/tree/0.3.0</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_NewRelic2/issues">https://github.com/yireo/Yireo_NewRelic2/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/7304d7909c7cff2f0b4c600c18bece54b68707af" title="7304d7909c7cff2f0b4c600c18bece54b68707af">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/4f8bce0762c216fa73ba488c4301ca7c325d1c8a" title="4f8bce0762c216fa73ba488c4301ca7c325d1c8a">0.1.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/37dd9e64e5d0d864e777adee80f195c49fb63462" title="37dd9e64e5d0d864e777adee80f195c49fb63462">0.0.1-beta</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/91f401757258c7ab8596c010c17dd24869053dfd" title="91f401757258c7ab8596c010c17dd24869053dfd">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/91f401757258c7ab8596c010c17dd24869053dfd" title="91f401757258c7ab8596c010c17dd24869053dfd">0.3.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/4f8bce0762c216fa73ba488c4301ca7c325d1c8a" title="4f8bce0762c216fa73ba488c4301ca7c325d1c8a">0.1.0</a>, <a href="https://api.github.com/repos/yireo/Yireo_NewRelic2/zipball/37dd9e64e5d0d864e777adee80f195c49fb63462" title="37dd9e64e5d0d864e777adee80f195c49fb63462">0.0.1-beta</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -406,8 +487,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_producttemplates">yireo/yireo_producttemplates</h3>
-                                                    <p>Allows for new products to be filled in with default values</p>
+                        <h3 id="yireo/yireo_producttemplates" class="package-title"><a href="#yireo/yireo_producttemplates" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_producttemplates</h3>
+                                                                            <p>Allows for new products to be filled in with default values</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -422,6 +503,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_ProductTemplates/tree/0.2.1">https://github.com/yireo/Yireo_ProductTemplates/tree/0.2.1</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_ProductTemplates/issues">https://github.com/yireo/Yireo_ProductTemplates/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -435,8 +525,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_systeminfo">yireo/yireo_systeminfo</h3>
-                                                    <p>Display useful system information in Magento backend</p>
+                        <h3 id="yireo/yireo_systeminfo" class="package-title"><a href="#yireo/yireo_systeminfo" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_systeminfo</h3>
+                                                                            <p>Display useful system information in Magento backend</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -451,10 +541,19 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_SystemInfo/tree/master">https://github.com/yireo/Yireo_SystemInfo/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_SystemInfo/issues">https://github.com/yireo/Yireo_SystemInfo/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/yireo/Yireo_SystemInfo/zipball/d904714570251f1daad6e1b09531dfa8d552ed1b" title="d904714570251f1daad6e1b09531dfa8d552ed1b">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_SystemInfo/zipball/4b6578eaa5be78e23e23793f02c425bcf892051a" title="4b6578eaa5be78e23e23793f02c425bcf892051a">1.0.9</a>                                </td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_SystemInfo/zipball/0977d3070fe8942b204287eeb9b2d16430781965" title="0977d3070fe8942b204287eeb9b2d16430781965">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_SystemInfo/zipball/4b6578eaa5be78e23e23793f02c425bcf892051a" title="4b6578eaa5be78e23e23793f02c425bcf892051a">1.0.9</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -464,8 +563,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="yireo/yireo_webp">yireo/yireo_webp</h3>
-                                                    <p>Add WebP image support to your Magento pages</p>
+                        <h3 id="yireo/yireo_webp" class="package-title"><a href="#yireo/yireo_webp" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_webp</h3>
+                                                                            <p>Add WebP image support to your Magento pages</p>
                                                 <table>
                                                             <tr>
                                     <th>Homepage</th>
@@ -480,6 +579,14 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     <td>
                                         Jisse Reitsma (Yireo)                                    </td>
                                 </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_WebP/tree/1.0.3">https://github.com/yireo/Yireo_WebP/tree/1.0.3</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
@@ -492,10 +599,49 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </tr>
                         </table>
                     </div>
-                            </div>
+                                    <div>
+                        <h3 id="yireo/yireo_whoops" class="package-title"><a href="#yireo/yireo_whoops" class="anchor"><svg class="octicon-link" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yireo/yireo_whoops</h3>
+                                                                            <p>Magento 2 module adding Whoops error handling</p>
+                                                <table>
+                                                            <tr>
+                                    <th>Homepage</th>
+                                    <td><a href="git remote add origin git@github.com:yireo/Yireo_Whoops.git">git remote add origin git@github.com:yireo/Yireo_Whoops.git</a></td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>OSL-3</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Jisse Reitsma (Yireo)                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/yireo/Yireo_Whoops/tree/0.0.1">https://github.com/yireo/Yireo_Whoops/tree/0.0.1</a></li>
+                                                                            <li>Issues: <a href="https://github.com/yireo/Yireo_Whoops/issues">https://github.com/yireo/Yireo_Whoops/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/yireo/Yireo_Whoops/zipball/46e931eae1ff153471bed8c77f8fcecd5723db20" title="46e931eae1ff153471bed8c77f8fcecd5723db20">dev-master</a>, <a href="https://api.github.com/repos/yireo/Yireo_Whoops/zipball/46e931eae1ff153471bed8c77f8fcecd5723db20" title="46e931eae1ff153471bed8c77f8fcecd5723db20">0.0.1</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                </div>
+            </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-03-22T15:34:44+0100</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-05T14:55:36+0200</small></p>
         </div>
     </div>
 
@@ -519,10 +665,12 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
             var ms = 350; // milliseconds
             var needle = $(this).val().toLowerCase(), show;
             timer = setTimeout(function() {
+                $('#package-list').hide();
                 packages.each(function(){
                     show = $(this).text().toLowerCase().indexOf(needle) != -1;
                     $(this).parent().toggle(show);
                 });
+                $('#package-list').show();
             }, ms);
         }).focus();
         $('input#search').change(function(){
@@ -544,7 +692,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-03-22T15:34:44+0100').fromNow());
+            $lastUpdate.text(moment('2016-08-05T14:55:36+0200').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
