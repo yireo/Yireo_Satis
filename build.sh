@@ -1,7 +1,5 @@
 #!/bin/bash
 cd satis/
-git pull origin master
-git pull github master
 php bin/satis build ../satis.json ..
 cd ..
 git add include/
