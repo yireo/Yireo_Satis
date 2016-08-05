@@ -1,6 +1,6 @@
 # Yireo Satis Repository for Composer #
 
-The URL of the repository is [satis.yireo.com](http://satis.yireo.com/).
+The URL of the repository is [satis.yireo.com](https://satis.yireo.com/).
 
 This Repository uses [Satis](https://github.com/composer/satis).
 
