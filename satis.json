@@ -3,21 +3,7 @@
    "homepage": "https://satis.yireo.com",
    "description": "Please visit https://github.com/yireo/Yireo_Satis for further informaton.",
    "repositories": [
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_AdminPreviousNext" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_CategoryTreeResizable" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_CheckoutTester" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_DisableLog" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_EmailOverride" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_GoogleTagManager" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_GoogleTagManager2" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_NewRelic" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_NewRelic2" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_ProductTemplates" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_SystemInfo" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_WebP" },
-      { "type": "vcs", "url": "git://github.com/yireo/Yireo_Whoops" },
-      { "type": "vcs", "url": "git://github.com/yireo/plg_system_sslredirect" },
-      { "type": "vcs", "url": "git://github.com/yireo/YireoStyleLibrary" }
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_Whoops" }
    ],
    "require-all": true
 }
