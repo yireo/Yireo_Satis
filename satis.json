@@ -6,6 +6,7 @@
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_AdminPreviousNext" },
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_CategoryTreeResizable" },
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_CheckoutTester" },
+      { "type": "vcs", "url": "git://github.com/yireo/Yireo_CheckoutTester2" },
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_DisableLog" },
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_DisableLog2" },
       { "type": "vcs", "url": "git://github.com/yireo/Yireo_EmailOverride" },
