@@ -6,13 +6,11 @@ This Repository uses [Satis](https://github.com/composer/satis).
 
 ## What can you find here?
 
-This repository contains the glue to install various Yireo extensions for Magento and Joomla using `composer`.
+This repository contains the glue to install various Yireo extensions for Magento 1 and 2 using `composer`.
 
-## Magento usage
-For further information on how to use composer for Magento modules, please visit the 
+## Magento 1 usage
+For further information on how to use composer for Magento 1 modules, please visit the 
 [Magento Composer Installer](https://github.com/magento-hackathon/magento-composer-installer) project.
 
-## Joomla usage
-See the COMPOSER.md file for instructions per repository. This composer integration is
-build on top of the [Nooku Installer for
-Joomla](https://github.com/nooku/nooku-installer).
+## Magento 2 usage
+Magento 2 supports composer out of the box.
